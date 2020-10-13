@@ -576,7 +576,11 @@ background: linear-gradient(90deg,rgba(153,97,130,1)  10%, rgba(128,4,68,1) 100%
 /*------------------------SITUACION ACTUAL-------------------------*/
 .situacion-actual{
 	width: 100%;
-	height: auto;
+	height: 450px;
+	display: flex;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
 }
 .img-nc{
 	margin-top: 1%;
@@ -602,6 +606,10 @@ background: linear-gradient(90deg,rgba(153,97,130,1)  10%, rgba(128,4,68,1) 100%
 	width: 80%;
 	margin:0px;
 	margin-top: 40px;
+}
+.situacion-actual p::first-letter{
+	font-size: 1.6em;
+	color:red;
 }
 .box_3d{
 
